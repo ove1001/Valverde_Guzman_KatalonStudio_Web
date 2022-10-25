@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Anadir objetos a cesta y borrarlos despues</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a401de7-8c27-4ec5-b284-62fd4804e685</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3cbb408-6439-430d-bc09-8717f2ba7799</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>060505f2-8bd5-4309-a62d-0eb3b9386800</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>d3cbb408-6439-430d-bc09-8717f2ba7799</id>
+      <masked>false</masked>
+      <name>cantidad_inicial</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>060505f2-8bd5-4309-a62d-0eb3b9386800</id>
+      <masked>false</masked>
+      <name>cantidad_final</name>
+   </variable>
+</TestCaseEntity>
