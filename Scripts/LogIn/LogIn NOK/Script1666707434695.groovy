@@ -21,6 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.es')
 
+'Recargar la página principal si sale con una interfaz diferente a la habitual (a veces pasa)'
 int flag = 0
 
 while (flag == 0) {
@@ -34,14 +35,40 @@ while (flag == 0) {
     } 
 }
 
+'Cerrar mensaje cookies'
 WebUI.click(findTestObject('AmazonWeb/Cartel cookies/boton continuar sin aceptar cookies'))
 
+/*
+if (WebUI.verifyElementClickable(findTestObject('AmazonWeb/Barra de navegacion/Boton Mi cuenta Pagina principal'))) {
+    WebUI.click(findTestObject('AmazonWeb/Barra de navegacion/Boton Mi cuenta Pagina principal'))
+}
+*/
 WebUI.mouseOver(findTestObject('AmazonWeb/Barra de navegacion/Recuadro cuenta y listas'))
 
 WebUI.verifyElementPresent(findTestObject('AmazonWeb/Barra de navegacion - desplegable cuenta/Boton identificarse'), 15)
 
 WebUI.verifyElementNotPresent(findTestObject('AmazonWeb/Barra de navegacion - desplegable cuenta/Boton cerrar sesion'), 
     15)
+
+WebUI.click(findTestObject('AmazonWeb/Barra de navegacion - desplegable cuenta/Boton identificarse'))
+
+WebUI.setText(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/campo direccion de email'), GlobalVariable.correo_valido)
+
+WebUI.click(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/boton email introducido'))
+
+WebUI.setEncryptedText(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/campo password'), GlobalVariable.pass_no_valida)
+
+WebUI.click(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/boton password introducida'))
+
+WebUI.verifyElementPresent(findTestObject('AmazonWeb/Pagina inicio sesion/mensaje contrasena incorrecta'), 15)
+
+WebUI.click(findTestObject('AmazonWeb/Pagina inicio sesion/Boton cambiar email'))
+
+WebUI.setText(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/campo direccion de email'), GlobalVariable.correo_no_valido)
+
+WebUI.click(findTestObject('Object Repository/AmazonWeb/Pagina inicio sesion/boton email introducido'))
+
+WebUI.verifyElementPresent(findTestObject('AmazonWeb/Pagina inicio sesion/mensaje error usuario no encontrado'), 15)
 
 WebUI.closeBrowser()
 

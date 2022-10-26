@@ -21,6 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.amazon.es')
 
+'Recargar la página principal si sale con una interfaz diferente a la habitual (a veces pasa)'
 int flag = 0
 
 while (flag == 0) {
@@ -34,6 +35,7 @@ while (flag == 0) {
     } 
 }
 
+'Cerrar mensaje cookies'
 WebUI.click(findTestObject('AmazonWeb/Cartel cookies/boton continuar sin aceptar cookies'))
 
 /*
