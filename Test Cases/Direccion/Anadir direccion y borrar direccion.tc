@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LogIn_NOK</name>
+   <name>Anadir direccion y borrar direccion</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e58a5d4f-b822-4f3a-a152-99b5331c597f</testCaseGuid>
+   <testCaseGuid>151a41f0-b027-410a-9a8d-9e331d6c4dee</testCaseGuid>
 </TestCaseEntity>

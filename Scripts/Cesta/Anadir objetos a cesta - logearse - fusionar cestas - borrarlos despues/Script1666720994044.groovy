@@ -68,30 +68,7 @@ cantidad_usuario_inicial = WebUI.getText(findTestObject('Object Repository/Amazo
 
 Integer cant_user_inicial = Integer.parseInt(cantidad_usuario_inicial)
 
-Integer cant_user_final = 0
-
-for (def articulo : GlobalVariable.articulos) {
-    WebUI.navigateToUrl(articulo)
-
-    cantidad_usuario_inicial = WebUI.getText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'))
-
-    cant_user_inicial = Integer.parseInt(cantidad_usuario_inicial)
-
-    WebUI.click(findTestObject('Object Repository/AmazonWeb/Pagnia item/Anadir al carrito'))
-
-    WebUI.navigateToUrl('https://www.amazon.es/gp/cart/view.html?ref_=nav_cart')
-
-    cant_user_final = (cant_user_inicial + 1)
-
-    cantidad_usuario_final = cant_user_final.toString()
-
-    WebUI.verifyElementText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'), 
-        cantidad_usuario_final)
-}
-
-cant_user_inicial = cant_user_final
-
-WebUI.mouseOver(findTestObject('AmazonWeb/Barra de navegacion/Recuadro cuenta y listas'))
+cant_user_final = cant_user_inicial
 
 WebUI.click(findTestObject('AmazonWeb/Barra de navegacion - desplegable cuenta/Boton cerrar sesion'))
 
@@ -172,13 +149,13 @@ cantidad_inicial = WebUI.getText(findTestObject('Object Repository/AmazonWeb/Bar
 cant_inicial = Integer.parseInt(cantidad_inicial)
 
 while (cant_inicial > 0) {
-    WebUI.click(findTestObject('AmazonWeb/Page_Cesta de compra Amazon.es/boton eliminar item'))
+    WebUI.click(findTestObject('AmazonWeb/Pagina cesta de compra/boton eliminar item'))
 
     WebUI.delay(5)
 
     WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
-    cant_final = (cant_inicial - 2)
+    cant_final = (cant_inicial - 1)
 
     cantidad_final = cant_final.toString()
 
@@ -189,8 +166,6 @@ while (cant_inicial > 0) {
 
     cant_inicial = Integer.parseInt(cantidad_inicial)
 }
-
-WebUI.verifyElementText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'), '0')
 
 WebUI.closeBrowser()
 

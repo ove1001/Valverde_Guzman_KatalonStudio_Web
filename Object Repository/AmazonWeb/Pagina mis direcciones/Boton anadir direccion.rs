@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Boton anadir direccion</name>
+   <tag></tag>
+   <elementGuidId>d85c12c4-19d8-4e18-b8d6-6eacb342050d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='ya-myab-address-add-link']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.a-box.first-desktop-address-tile</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17fbadb2-3647-4fe2-9bb1-5ec59906d66c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-box first-desktop-address-tile</value>
+      <webElementGuid>1574b82f-d915-415c-98a1-37a8aca60138</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Añadir dirección</value>
+      <webElementGuid>8479f162-d80c-42cb-9b04-f56d11bf514c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ya-myab-address-add-link&quot;)/div[@class=&quot;a-box first-desktop-address-tile&quot;]</value>
+      <webElementGuid>b9cb776d-f360-4e1b-a11e-bfa686c32854</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='ya-myab-address-add-link']/div</value>
+      <webElementGuid>541e4847-96be-4e45-976b-e08ad32ddd5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis direcciones'])[3]/following::div[4]</value>
+      <webElementGuid>a3332492-fc0d-4533-a9fa-787f674e6df1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mis direcciones'])[2]/following::div[4]</value>
+      <webElementGuid>d8bccc5a-8fba-4618-bfc5-1bee16e74964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Relacionado'])[1]/preceding::div[3]</value>
+      <webElementGuid>c91d6a3f-5c5b-4e7f-9879-0a1fed8c83a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/a/div</value>
+      <webElementGuid>5115f11d-1091-4b36-b3c9-5ee9165489f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Añadir dirección' or . = 'Añadir dirección')]</value>
+      <webElementGuid>b57a51df-97a2-4624-a0c2-4a668ad904fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

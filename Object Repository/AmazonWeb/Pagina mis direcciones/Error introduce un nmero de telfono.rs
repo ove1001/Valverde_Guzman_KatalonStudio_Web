@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Error introduce un nmero de telfono</name>
+   <tag></tag>
+   <elementGuidId>4b76290c-c963-4110-8e26-a85a7d0752ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[6]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5505af3a-9dc1-4b2d-a378-d89e68478caf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-box-inner a-alert-container</value>
+      <webElementGuid>2090b795-d437-4f7a-9c88-05cfd5fd1831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Introduce un número de teléfono para que podamos llamar si hay algún problema con la entrega.</value>
+      <webElementGuid>7903a734-150e-45b4-b151-ade50835c741</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-ui-widgets-enterAddressFormContainer&quot;)/div[@class=&quot;a-row&quot;]/div[@class=&quot;a-input-text-group a-spacing-medium a-spacing-top-medium&quot;]/div[@class=&quot;a-section a-spacing-base adddress-ui-widgets-form-field-container&quot;]/div[@class=&quot;a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert&quot;]/div[@class=&quot;a-box a-alert-inline a-alert-inline-error&quot;]/div[@class=&quot;a-box-inner a-alert-container&quot;]</value>
+      <webElementGuid>61834505-9931-44a1-b22c-a7744138045e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[6]/div/div/div</value>
+      <webElementGuid>5b8df417-6553-4e19-aead-2248a329b3e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Por qué?'])[1]/following::div[4]</value>
+      <webElementGuid>fef210cc-aa4b-41b5-9557-4624a0b88127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Número de teléfono'])[1]/following::div[5]</value>
+      <webElementGuid>11ecc47c-d448-4e7f-8209-6ed7ae6b14be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='El número de teléfono introducido no tiene suficientes caracteres'])[1]/preceding::div[3]</value>
+      <webElementGuid>51b674c1-0ee9-409d-9f6d-d3a87d0c479a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div</value>
+      <webElementGuid>de5b577b-28c2-44a8-931e-628119fbbcb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Introduce un número de teléfono para que podamos llamar si hay algún problema con la entrega.' or . = 'Introduce un número de teléfono para que podamos llamar si hay algún problema con la entrega.')]</value>
+      <webElementGuid>7dd9f965-c1f5-42c8-822f-4806b10112cb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

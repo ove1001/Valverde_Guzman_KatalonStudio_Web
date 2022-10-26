@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Error introduce una direccin</name>
+   <tag></tag>
+   <elementGuidId>19d1e5d3-aca4-4870-b207-809f9cbf36ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[10]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9918d2d6-f10d-4cfc-bbc8-64e1d320d080</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-section</value>
+      <webElementGuid>a6845edf-8152-4615-ba7d-6116a521b13c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Introduce una dirección.</value>
+      <webElementGuid>b53b8c74-5bd3-42cc-a5ea-1479a9db978d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-ui-widgets-enterAddressFormContainer&quot;)/div[@class=&quot;a-row&quot;]/div[@class=&quot;a-input-text-group a-spacing-medium a-spacing-top-medium&quot;]/div[@class=&quot;a-section a-spacing-base adddress-ui-widgets-form-field-container&quot;]/div[@class=&quot;a-section a-spacing-none a-spacing-top-micro address-ui-widgets-inline-error-alert&quot;]/div[@class=&quot;a-box a-alert-inline a-alert-inline-error&quot;]/div[@class=&quot;a-box-inner a-alert-container&quot;]/div[@class=&quot;a-alert-content&quot;]/div[@class=&quot;a-section&quot;]</value>
+      <webElementGuid>2d3e01a9-f47c-4174-99df-0e3ff1a5ffea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div[7]/div/div[10]/div/div/div/div/div</value>
+      <webElementGuid>384904fd-afc1-4af3-89eb-5655be8e53d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Línea de dirección 1'])[1]/following::div[8]</value>
+      <webElementGuid>34adf617-30e6-4049-817d-45aaf9df172e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Introduce un número de móvil válido'])[1]/following::div[10]</value>
+      <webElementGuid>ffbf16e7-968d-46d8-a49c-c43817399418</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Código postal'])[1]/preceding::div[1]</value>
+      <webElementGuid>d8143161-9864-42ab-8c78-67784aba745a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Especifica un código postal.'])[1]/preceding::div[3]</value>
+      <webElementGuid>a2c325d7-e22b-4835-b2b9-06d0d9fa127b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Introduce una dirección.']/parent::*</value>
+      <webElementGuid>392839b9-c947-4efa-b332-78d04de208cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/div/div/div/div</value>
+      <webElementGuid>d82616d3-80a7-47e1-be85-b6a31a7e73d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Introduce una dirección.' or . = 'Introduce una dirección.')]</value>
+      <webElementGuid>77ba8304-45e5-4fa3-b805-44d3cfe27031</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

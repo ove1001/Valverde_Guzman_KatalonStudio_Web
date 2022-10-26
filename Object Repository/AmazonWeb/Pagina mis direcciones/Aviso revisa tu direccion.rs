@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Aviso revisa tu direccion</name>
+   <tag></tag>
+   <elementGuidId>d4e15578-2e46-4041-9931-9d4c5da49d4b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.a-alert-heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>1d9009d1-526e-4848-b9df-28cd98e6cb10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-alert-heading</value>
+      <webElementGuid>54bccf9a-3147-4d22-8301-33e450690d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Revisa tu dirección</value>
+      <webElementGuid>3b1056d0-9701-4eb3-b5db-f5c4cecea30e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;address-ui-widgets-enterAddressFormContainer&quot;)/div[@class=&quot;a-section a-spacing-none a-spacing-top-mini&quot;]/div[@class=&quot;a-box a-alert a-alert-warning a-spacing-none&quot;]/div[@class=&quot;a-box-inner a-alert-container&quot;]/h4[@class=&quot;a-alert-heading&quot;]</value>
+      <webElementGuid>069be60b-5161-47a0-a875-eb46ecc988f9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='address-ui-widgets-enterAddressFormContainer']/div/div/div/h4</value>
+      <webElementGuid>94adf44a-3075-4bd0-92e4-169be2e96eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Añadir una dirección nueva'])[1]/following::h4[1]</value>
+      <webElementGuid>ecdfdc73-9ba8-46a8-9368-4ca50d332b63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nueva dirección'])[1]/following::h4[1]</value>
+      <webElementGuid>dc2d41d6-efb0-4ae7-9a3b-d3427b692499</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No hemos podido verificar tu dirección. Asegúrate de que es correcta antes de guardarla.'])[1]/preceding::h4[1]</value>
+      <webElementGuid>0aed1440-414b-4afa-928d-b6fca9c421ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ahorra tiempo. Rellenar automáticamente tu ubicación actual.'])[1]/preceding::h4[1]</value>
+      <webElementGuid>903a7f7d-7963-4d89-bf6d-9b31845835a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Revisa tu dirección']/parent::*</value>
+      <webElementGuid>9004fbb6-64b5-442e-a5d7-ef659a150299</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>bf683e8d-1b64-4906-ad77-55d1c52cda99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'Revisa tu dirección' or . = 'Revisa tu dirección')]</value>
+      <webElementGuid>20784f57-f864-4901-872a-3796aaf56518</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

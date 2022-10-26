@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Anadir_objetos_a_cesta_y_logearse_despues</name>
+   <name>Anadir objetos a cesta - logearse - fusionar cestas - borrarlos despues</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8a5b71c7-b218-4565-a692-d4b3409a7aab</testCaseGuid>

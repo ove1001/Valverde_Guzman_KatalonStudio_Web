@@ -37,49 +37,16 @@ while (flag == 0) {
 
 WebUI.click(findTestObject('Object Repository/AmazonWeb/Cartel cookies/boton continuar sin aceptar cookies'))
 
-for (def articulo : GlobalVariable.articulos) {
-    WebUI.navigateToUrl(articulo)
-
-    cantidad_inicial = WebUI.getText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'))
-
-    Integer cant_inicial = Integer.parseInt(cantidad_inicial)
-
-    WebUI.click(findTestObject('Object Repository/AmazonWeb/Pagnia item/Anadir al carrito'))
-
-    WebUI.navigateToUrl('https://www.amazon.es/gp/cart/view.html?ref_=nav_cart')
-
-    Integer cant_final = cant_inicial + 1
-
-    cantidad_final = cant_final.toString()
-
-    WebUI.verifyElementText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'), 
-        cantidad_final)
-}
-
 WebUI.navigateToUrl('https://www.amazon.es/gp/cart/view.html?ref_=nav_cart')
 
-cantidad_inicial = WebUI.getText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'))
+WebUI.verifyElementText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'), '0')
 
-cant_inicial = Integer.parseInt(cantidad_inicial)
-
-while (cant_inicial > 0) {
-    WebUI.click(findTestObject('AmazonWeb/Pagina cesta de compra/boton eliminar item'))
-
-    WebUI.delay(5)
-
-    WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-
-    cant_final = (cant_inicial - 1)
-
-    cantidad_final = cant_final.toString()
-
-    WebUI.verifyElementText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'), 
-        cantidad_final)
-
-    cantidad_inicial = WebUI.getText(findTestObject('Object Repository/AmazonWeb/Barra de navegacion/Cantidad items en carrito'))
-
-    cant_inicial = Integer.parseInt(cantidad_inicial)
+try {
+    WebUI.click(findTestObject('AmazonWeb/Page_Cesta de compra Amazon.es/boton eliminar item'))
 }
+catch (Exception e) {
+    WebUI.closeBrowser()
+} 
 
 WebUI.closeBrowser()
 
